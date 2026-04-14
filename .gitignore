@@ -2,8 +2,6 @@ node_modules/
 dist/
 build/
 target/
-.env
-.env.local
 *.db-shm
 *.db-wal
 .DS_Store
@@ -13,3 +11,4 @@ target/
 flake.lock
 Caddyfile
 apps/web/test-results
+config.bat

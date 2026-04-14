@@ -11,8 +11,8 @@
     }
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "dev": "tsc -p tsconfig.build.json --watch",
+    "build": "node init && tsc -p tsconfig.build.json",
+    "dev": "node init && tsc -p tsconfig.build.json --watch",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
